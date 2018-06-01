@@ -2,8 +2,6 @@
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 16px;
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
 }
 
 body {
@@ -35,16 +33,40 @@ nav li {
     border: 1px solid gray;
 }
 
+.bottone {
+    border: 1px solid green;
+    background-color: red;
+    color: white;
+    transition: all 1s ease-in-out;
+}
+
+.bottone:hover {
+    color: red;
+    background-color: white;
+    cursor: pointer;
+    width: 350px;
+}
+
+.bottone_large {
+    width: 300px;
+    font-size: 20px;
+}
+
 
 /* FORM  */
 
 form {
     border: 1px solid gray;
     padding: 30px 20px;
+    color: blue;
 }
 
 .formItem {
     margin-bottom: 20px;
+}
+
+.frontItem:hover {
+    background-color: gray;
 }
 
 .formItem label {
